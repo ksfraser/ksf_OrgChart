@@ -19,9 +19,9 @@ class ComposerStaticInitbbc080063bceade9c2f65b4c9e6e7ef8
         'K' => 
         array (
             'Ksfraser\\OrgChart\\Tests\\' => 24,
-            'Ksfraser\\OrgChart\\' => 18,
             'Ksfraser\\ModulesDAO\\' => 20,
             'Ksfraser\\Database\\' => 18,
+            'Ksfraser\\' => 9,
         ),
         'D' => 
         array (
@@ -38,10 +38,6 @@ class ComposerStaticInitbbc080063bceade9c2f65b4c9e6e7ef8
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Ksfraser\\OrgChart\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Ksfraser\\ModulesDAO\\' => 
         array (
             0 => __DIR__ . '/..' . '/ksfraser/ksf-modules-dao/src',
@@ -49,6 +45,10 @@ class ComposerStaticInitbbc080063bceade9c2f65b4c9e6e7ef8
         'Ksfraser\\Database\\' => 
         array (
             0 => __DIR__ . '/..' . '/ksfraser/database/src/Ksfraser/Database',
+        ),
+        'Ksfraser\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Ksfraser',
         ),
         'DeepCopy\\' => 
         array (

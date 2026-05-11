@@ -3,7 +3,7 @@
         'name' => 'ksfraser/ksf_orgchart',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'dedb37222b0ed8f70eb0f2927090cb8073bfd126',
+        'reference' => '0232776b2b5e37d37ab865e6f887ca8e052d3b3f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'ksfraser/ksf_orgchart' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'dedb37222b0ed8f70eb0f2927090cb8073bfd126',
+            'reference' => '0232776b2b5e37d37ab865e6f887ca8e052d3b3f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

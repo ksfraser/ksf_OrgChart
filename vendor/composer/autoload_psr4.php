@@ -8,8 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Ksfraser\\OrgChart\\Tests\\' => array($baseDir . '/tests'),
-    'Ksfraser\\OrgChart\\' => array($baseDir . '/src'),
     'Ksfraser\\ModulesDAO\\' => array($vendorDir . '/ksfraser/ksf-modules-dao/src'),
     'Ksfraser\\Database\\' => array($vendorDir . '/ksfraser/database/src/Ksfraser/Database'),
+    'Ksfraser\\' => array($baseDir . '/src/Ksfraser'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );

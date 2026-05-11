@@ -1,36 +1,21 @@
 # Business Requirements - ksf_OrgChart
 
 ## Project Overview
-Organization chart with dual reporting structure - career manager and operations manager(s).
+ksf_OrgChart provides organizational hierarchy visualization with reporting relationships.
 
-## Problem Statement
-- Employees report to different managers for different purposes
-- Career manager handles promotions, compensation
-- Operations managers handle daily work
-- Need to visualize both structures
+## Integration Dependencies
 
-## Scope
+### Provided To
+| Module | Data Provided |
+|--------|---------------|
+| ksf_HRM | Reporting structure |
+| ksf_Leave | Manager for approvals |
+| ksf_Workflow | Approver hierarchy |
 
-### Career Reporting (Solid Line)
-- Direct manager for career development
-- Promotion, compensation decisions
-- Performance reviews
-- Only ONE career manager
+### Consumed From
+| Module | Data Consumed |
+|--------|---------------|
+| ksf_HRM | Employee data, managers |
 
-### Operations Reporting (Dotted Line)
-- Multiple daily managers possible
-- Project-based assignments
-- Task assignment authority
-- Can have ZERO or MORE
-
-### Visual Display
-- Org chart tree view
-- Search by employee
-- Highlight reporting path
-- Switch between career/operations view
-
-### Features
-- Position title tracking
-- Vacant position tracking
-- Department hierarchy
-- Organization levels
+*Document Version: 1.0.0*
+*Last Updated: 2026-05-11*

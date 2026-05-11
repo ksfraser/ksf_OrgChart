@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ksfraser\\OrgChart\\": "src/"
+            "Ksfraser\\": "src/Ksfraser/"
         }
     },
     "autoload-dev": {
@@ -24,7 +24,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
-        {"type": "path", "url": "../Database"},
-        {"type": "path", "url": "../ksf_ModulesDAO"}
+        {
+            "type": "path",
+            "url": "../Database"
+        },
+        {
+            "type": "path",
+            "url": "../ksf_ModulesDAO"
+        }
     ]
 }

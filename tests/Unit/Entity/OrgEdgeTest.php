@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\OrgChart\Entity;
+namespace ksfraser\Tests\Unit\OrgChart\Entity;
 
-use Ksfraser\OrgChart\Entity\OrgEdge;
+use ksfraser\OrgChart\Entity\OrgEdge;
 use PHPUnit\Framework\TestCase;
 
 class OrgEdgeTest extends TestCase
@@ -21,8 +21,8 @@ class OrgEdgeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::setFromNodeId
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::getFromNodeId
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::setFromNodeId
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::getFromNodeId
      */
     public function testSetFromNodeId(): void
     {
@@ -34,8 +34,8 @@ class OrgEdgeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::setToNodeId
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::getToNodeId
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::setToNodeId
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::getToNodeId
      */
     public function testSetToNodeId(): void
     {
@@ -47,8 +47,8 @@ class OrgEdgeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::setType
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::getType
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::setType
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::getType
      */
     public function testSetType(): void
     {
@@ -60,8 +60,8 @@ class OrgEdgeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::setEffectiveDate
-     * @covers Ksfraser\OrgChart\Entity\OrgEdge::getEffectiveDate
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::setEffectiveDate
+     * @covers ksfraser\OrgChart\Entity\OrgEdge::getEffectiveDate
      */
     public function testSetEffectiveDate(): void
     {

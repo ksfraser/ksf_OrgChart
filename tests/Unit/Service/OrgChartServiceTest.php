@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\OrgChart\Service;
+namespace ksfraser\Tests\Unit\OrgChart\Service;
 
-use Ksfraser\OrgChart\Entity\OrgNode;
-use Ksfraser\OrgChart\Entity\OrgEdge;
-use Ksfraser\OrgChart\Service\OrgChartService;
+use ksfraser\OrgChart\Entity\OrgNode;
+use ksfraser\OrgChart\Entity\OrgEdge;
+use ksfraser\OrgChart\Service\OrgChartService;
 use PHPUnit\Framework\TestCase;
 
 class OrgChartServiceTest extends TestCase
@@ -19,7 +19,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::createNode
+     * @covers ksfraser\OrgChart\Service\OrgChartService::createNode
      */
     public function testCreateNodeSuccess(): void
     {
@@ -40,7 +40,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::createNode
+     * @covers ksfraser\OrgChart\Service\OrgChartService::createNode
      */
     public function testCreateNodeMinimal(): void
     {
@@ -53,7 +53,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::getNode
+     * @covers ksfraser\OrgChart\Service\OrgChartService::getNode
      */
     public function testGetNode(): void
     {
@@ -66,7 +66,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::getRootNodes
+     * @covers ksfraser\OrgChart\Service\OrgChartService::getRootNodes
      */
     public function testGetRootNodes(): void
     {
@@ -80,7 +80,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::getChildren
+     * @covers ksfraser\OrgChart\Service\OrgChartService::getChildren
      */
     public function testGetChildren(): void
     {
@@ -96,7 +96,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::addEdge
+     * @covers ksfraser\OrgChart\Service\OrgChartService::addEdge
      */
     public function testAddEdge(): void
     {
@@ -110,7 +110,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::getReportingChain
+     * @covers ksfraser\OrgChart\Service\OrgChartService::getReportingChain
      */
     public function testGetReportingChain(): void
     {
@@ -127,7 +127,7 @@ class OrgChartServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Service\OrgChartService::countDescendants
+     * @covers ksfraser\OrgChart\Service\OrgChartService::countDescendants
      */
     public function testCountDescendants(): void
     {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\OrgChart\Entity;
+namespace ksfraser\Tests\Unit\OrgChart\Entity;
 
-use Ksfraser\OrgChart\Entity\OrgNode;
+use ksfraser\OrgChart\Entity\OrgNode;
 use PHPUnit\Framework\TestCase;
 
 class OrgNodeTest extends TestCase
@@ -24,8 +24,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setId
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getId
      */
     public function testSetId(): void
     {
@@ -37,8 +37,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setParentId
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getParentId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setParentId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getParentId
      */
     public function testSetParentId(): void
     {
@@ -50,8 +50,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setName
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getName
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setName
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getName
      */
     public function testSetName(): void
     {
@@ -63,8 +63,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setType
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getType
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setType
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getType
      */
     public function testSetType(): void
     {
@@ -76,8 +76,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setHeadId
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getHeadId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setHeadId
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getHeadId
      */
     public function testSetHeadId(): void
     {
@@ -89,7 +89,7 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::isRoot
+     * @covers ksfraser\OrgChart\Entity\OrgNode::isRoot
      */
     public function testIsRoot(): void
     {
@@ -101,8 +101,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::setLevel
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::getLevel
+     * @covers ksfraser\OrgChart\Entity\OrgNode::setLevel
+     * @covers ksfraser\OrgChart\Entity\OrgNode::getLevel
      */
     public function testSetLevel(): void
     {
@@ -114,8 +114,8 @@ class OrgNodeTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::TYPE_COMPANY
-     * @covers Ksfraser\OrgChart\Entity\OrgNode::TYPE_TEAM
+     * @covers ksfraser\OrgChart\Entity\OrgNode::TYPE_COMPANY
+     * @covers ksfraser\OrgChart\Entity\OrgNode::TYPE_TEAM
      */
     public function testTypeConstants(): void
     {

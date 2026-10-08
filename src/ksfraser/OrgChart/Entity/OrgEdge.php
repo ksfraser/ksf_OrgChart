@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\OrgChart\Entity;
+namespace ksfraser\OrgChart\Entity;
 
 class OrgEdge
 {

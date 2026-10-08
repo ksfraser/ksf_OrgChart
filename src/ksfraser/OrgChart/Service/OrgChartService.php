@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\OrgChart\Service;
+namespace ksfraser\OrgChart\Service;
 
-use Ksfraser\OrgChart\Entity\OrgNode;
-use Ksfraser\OrgChart\Entity\OrgEdge;
+use ksfraser\OrgChart\Entity\OrgNode;
+use ksfraser\OrgChart\Entity\OrgEdge;
 
 class OrgChartService
 {

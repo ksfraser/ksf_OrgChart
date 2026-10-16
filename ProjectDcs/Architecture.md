@@ -15,7 +15,7 @@ ksf_OrgChart manages organizational hierarchy and reporting relationships. It pr
 
 ### 1.1 Namespace
 ```php
-Ksfraser\OrgChart\
+ksfraser\OrgChart\
 ```
 
 ### 1.2 Layer Pattern
